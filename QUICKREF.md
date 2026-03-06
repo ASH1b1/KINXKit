@@ -515,6 +515,28 @@ node dist/index.js create --help
 - **Execa 8.0** - 进程执行
 - **Jest 29.7** - 测试框架
 
+### Q: 如何推送到 GitHub？
+
+**A:** GitHub 仓库已准备就绪：
+1. 访问 https://github.com/new 创建仓库
+2. 运行 `./push_to_github.sh` 或手动推送：
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/KINXKit.git
+   git branch -M main
+   git push -u origin main
+   ```
+3. 详细步骤请查看 `GITHUB_SETUP.md`
+
+### Q: GitHub 配置包含什么？
+
+**A:** 完整的开源项目配置：
+- ✅ CI/CD 工作流（自动构建和测试）
+- ✅ Issue 模板（Bug 报告 + 功能请求）
+- ✅ Pull Request 模板
+- ✅ 贡献指南（CONTRIBUTING.md）
+- ✅ MIT 开源许可证
+- ✅ GitHub 设置指南（GITHUB_SETUP.md）
+
 ---
 
 *最后更新: 2025-03-07 18:30*
