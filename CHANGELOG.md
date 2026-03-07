@@ -84,6 +84,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 开源项目标准化配置
   - MIT 许可证应用
   - 完整的贡献指南
+- **GitHub Actions CI 更新**
+  - 升级所有 actions 从 v3 到 v4
+  - 添加 workflow_dispatch 支持手动触发
+  - 提升安全性和性能
+
+#### update-docs Skill 增强
+- **新增文档支持**
+  - CONTEXT.md - 项目状态和上下文
+  - USER_QUESTIONS.md - 问答和故障排除
+- **功能扩展**
+  - 文档数量：7 个 → 9 个
+  - 完整的更新指南
+  - 智能更新模式
+  - 最佳实践文档
+- **测试验证**
+  - 24 个测试全部通过
+  - 完整的错误处理
 
 ### Changed
 - 项目总体进度更新为 65%
