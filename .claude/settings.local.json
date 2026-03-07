@@ -21,7 +21,8 @@
       "Bash(chmod +x:*)",
       "Bash(./create-and-push.sh:*)",
       "Bash(cmd.exe:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(gh release:*)"
     ]
   }
 }
